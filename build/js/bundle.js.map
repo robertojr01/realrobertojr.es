@@ -1,1 +1,1 @@
-{"version":3,"sources":["app.js"],"names":["$","$body","document","bind","scrollLeft"],"mappings":"AAAAA,GAAA,WAEA,IAAAC,EAAAD,EAAAE,UACAD,EAAAE,KAAA,UAAA,WAEA,IAAAF,EAAAG,cACAH,EAAAG,WAAA","file":"bundle.js","sourcesContent":["$(function() {\r\n\r\n    var $body = $(document);\r\n    $body.bind('scroll', function() {\r\n        // \"Desactivar\" el scroll horizontal\r\n        if ($body.scrollLeft() !== 0) {\r\n            $body.scrollLeft(0);\r\n        }\r\n    });\r\n\r\n}); "]}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"bundle.js","sourcesContent":[]}
