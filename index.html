@@ -9,12 +9,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <meta name="author" content="Roberto Jr. Romero Oliveira">
     <meta name="description" content="Pagina web sobre Roberto Jr. Romero Oliveira, a website from Roberto Jr. Romero Oliveira">
     <link rel="shortcut icon" href="build/img/R.svg" type="image/x-icon">
+    
     <title>RobertoJr.</title>
-    <link rel="stylesheet" href="build/css/app-2.css">
+    <script src="https://kit.fontawesome.com/f60d096336.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="build/css/app.css">
     <!-- <script src="build/js/refresh.js"></script> -->
+    <!-- Main/App.js -->
+    <script src="build/js/bundle.js"></script>
 </head>
 <body>
     <!--ID PARTICULAS-->
@@ -25,14 +30,16 @@
     <!-- Header -->
     <header>
         <div class="display-flex">
-            <a class="logo" href="index.html"><p class="logo_nombre">Real<span class="logo_bold">RobertoJr</span></p></a>
+            <a class="logo" href="#"><p class="logo_nombre">Real<span class="logo_bold">RobertoJr</span></p></a>
 
-            <nav class="nav">
+            <nav class="nav" data-aos="fade-down" data-aos-duration="1000">
                 <a href="#habilidades">1.<span>Habilidades</span></a>   
                 <a href="#proyectos">2.<span>Proyectos</span></a>   
                 <a href="#portafolio">3.<span>Portafolio</span></a>   
                 <a href="#contacto">4.<span>Contacto</span></a>   
             </nav>
+
+            <input type="checkbox" class="boton" onclick="document.documentElement.classList.toggle('dark')">
 
             <a class="curriculum" target="_blank" href="/build/docs/roberto jr. romero oliveira.pdf">Ver Currículum</a>
         </div>
@@ -40,6 +47,12 @@
             <h1 data-aos="fade-up"  data-aos-delay="400" data-aos-duration="2000">Roberto Jr. Romero</h1>
             <h2 data-aos="fade-down"  data-aos-delay="400" data-aos-duration="3000">Desarrollador y diseñador web.</h2>
             <p data-aos="zoom-in" data-aos-delay="800" data-aos-duration="2000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora mismo me encuentro todavía aprendiendo, <br> pero mi objetivo es estar en unos meses con conocimientos <br> para crear sitios webs únicos y excepcionales. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aquí encontrarás mis próximos proyectos y habilidades actuales, <br> así como descargar mi currículum y contactar conmigo.</p>
+            <nav class="nav-rrss">
+                <a href="#" target=_blank data-aos="fade-down" data-aos-delay="500" data-aos-duration="2000"><span></span><span></span><span></span><span></span><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="rgb(5, 56, 133)" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg></a>
+                <a href="#" target=_blank data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000"><span></span><span></span><span></span><span></span><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="rgb(5, 56, 133)" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" /></svg></a>
+                <a href="#" target=_blank data-aos="fade-down" data-aos-delay="500" data-aos-duration="2000"><span></span><span></span><span></span><span></span><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="rgb(5, 56, 133)" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg></a>
+                <a href="#" target=_blank data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000"><span></span><span></span><span></span><span></span><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="rgb(5, 56, 133)" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="4" y="4" width="16" height="16" rx="2" /><line x1="8" y1="11" x2="8" y2="16" /><line x1="8" y1="8" x2="8" y2="8.01" /><line x1="12" y1="16" x2="12" y2="11" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg></a>
+            </nav>
         </div>
     </header>
 
@@ -65,13 +78,15 @@
                         <li>JQUERY</li>
                         <li>PHP</li>
                         <li>MySQL</li>
-                        <li>WORDPRESS</li>
-                        <li>ANGULAR</li>
+                        <!-- <li>WORDPRESS</li> -->
+                        <!-- <li>ANGULAR</li> -->
                         <li>GIT</li>
                         <li>CLEAN CODE</li>
                     </ul>
                 </div>
-                <img src="build/img/robertojr.webp" alt="Imagen Roberto Jr." class="imagen" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                    <img src="build/img/robertojr.webp" alt="roberto jr. romero oliveira" class="imagen">
+                </div>
             </div> <!-- Grid -->
         </section>
 
@@ -106,51 +121,59 @@
 
             <div class="cards">
                 <!-- Card 1 -->
-                <div class="card card-1" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">
-                    <div class="container">
-                        <img src="build/img/blog-de-cafe.webp" alt="Imagen Card 1">
+                <div data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">
+                    <div class="card card-1">
+                        <div class="container">
+                            <img src="build/img/blog-de-cafe.webp" alt="Imagen Card 1">
+                        </div>
+                        <div class="detalles">
+                            <h4>Blog de Café</h4>
+                            <p>Simula una página web de un bar, el tema principal es que las personas conozcan su bar o cafetería, también dispone de secciones como nosotros, donde le habla sobre la cafetería en sí, otra sección es la de cursos y talleres donde se puede realizar diversos talleres y cursos y la última sección es la de contacto, con un formulario.</p>
+                        </div>
+                        <a class="enlace-card" target="e_blank" href="https://mystifying-visvesvaraya-ed6bb7.netlify.app/" rel="noopener noreferrer">Ver Web</a>
                     </div>
-                    <div class="detalles">
-                        <h4>Blog de Café</h4>
-                        <p>Simula una página web de un bar, el tema principal es que las personas conozcan su bar o cafetería, también dispone de secciones como nosotros, donde le habla sobre la cafetería en sí, otra sección es la de cursos y talleres donde se puede realizar diversos talleres y cursos y la última sección es la de contacto, con un formulario.</p>
-                    </div>
-                    <a class="enlace-card" target="e_blank" href="https://mystifying-visvesvaraya-ed6bb7.netlify.app/" rel="noopener noreferrer">Ver Web</a>
-                </div><!-- Card 1 -->
+                </div> <!--Card 1 -->
 
                 <!-- Card 2 -->
-                <div class="card card-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
-                    <div class="container">
-                        <img src="build/img/bienes-raices.webp" alt="Imagen Card 2">
+                <div data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+                    <div class="card card-2">
+                        <div class="container">
+                            <img src="build/img/bienes-raices.webp" alt="Imagen Card 2">
+                        </div>
+                        <div class="detalles">
+                            <h4>Bienes Raices</h4>
+                            <p>Esta web viene siendo un inmobiliario con casas de lujo donde se pueden ver las casass que se están ofertanto, también dispone de una pagina de nosotros para hablar mas detalladamente de la inmobiliario y de un blog donde se publican ciertos temas para usuarios y por último hay una sección de contacto donde se puede enviar un formuario a la inmobiliaria.</p>
+                        </div>
+                        <a class="enlace-card" target="_blank" href="https://vibrant-bassi-9878cf.netlify.app/" rel="noopener noreferrer">Ver Web</a>
                     </div>
-                    <div class="detalles">
-                        <h4>Bienes Raices</h4>
-                        <p>Esta web viene siendo un inmobiliario con casas de lujo donde se pueden ver las casass que se están ofertanto, también dispone de una pagina de nosotros para hablar mas detalladamente de la inmobiliario y de un blog donde se publican ciertos temas para usuarios y por último hay una sección de contacto donde se puede enviar un formuario a la inmobiliaria.</p>
-                    </div>
-                    <a class="enlace-card" target="_blank" href="https://vibrant-bassi-9878cf.netlify.app/" rel="noopener noreferrer">Ver Web</a>
                 </div><!-- Card 2 -->
 
                 <!-- Card 3 -->
-                <div class="card card-3" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-                    <div class="container">
-                        <img src="build/img/frontend-store.webp" alt="Imagen Card 3">
+                <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                    <div class="card card-3">
+                        <div class="container">
+                            <img src="build/img/frontend-store.webp" alt="Imagen Card 3">
+                        </div>
+                        <div class="detalles">
+                            <h4>Tienda Online</h4>
+                            <p>Este fue mi primer proyecto donde construyo más a fondo, se puede ver que dispone de 2 secciones, la de nosotros viene siendo una presentación de quienes son como todas las demás, luego está la de inicio donde selanzan los productos, en este caso son camisas. Todavía le falta a esta web más detalles pero yo quise hacer una web mucho más sencilla y fácil.</p>
+                        </div>
+                        <a class="enlace-card" target="_blank" href="https://eager-sinoussi-0fb8f7.netlify.app/" rel="noopener noreferrer">Ver Web</a>
                     </div>
-                    <div class="detalles">
-                        <h4>Tienda Online</h4>
-                        <p>Este fue mi primer proyecto donde construyo más a fondo, se puede ver que dispone de 2 secciones, la de nosotros viene siendo una presentación de quienes son como todas las demás, luego está la de inicio donde selanzan los productos, en este caso son camisas. Todavía le falta a esta web más detalles pero yo quise hacer una web mucho más sencilla y fácil.</p>
-                    </div>
-                    <a class="enlace-card" target="_blank" href="https://eager-sinoussi-0fb8f7.netlify.app/" rel="noopener noreferrer">Ver Web</a>
                 </div><!-- Card 3 -->
 
                 <!-- Card 4 -->
-                <div class="card card-4" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
-                    <div class="container">
-                        <img src="build/img/imagen-portafolio-card4.webp" alt="Imagen Card 4">
+                <div data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+                    <div class="card card-4">
+                        <div class="container">
+                            <img src="build/img/imagen-portafolio-card4.webp" alt="Imagen Card 4">
+                        </div>
+                        <div class="detalles">
+                            <h4>Buscador de Imágenes</h4>
+                            <p>He creado este proyecto con el fin de ayudarme a la hora de buscar imágenes para realizar los proyectos. Se trata de una API que conecta las imágenes de la plataforma Pixabay, un lugar donde puedes encontrar más de 1.9 millones de imágenes y vídeos compartidos gratuitamente por la comunidad. Tiene el fin de ayudar a todo aquel que lo use a encontrar imágenes o vídeos más fácilmente.</p>
+                        </div>
+                        <a class="enlace-card" target="_blank" href="https://sleepy-newton-e4f703.netlify.app" rel="noopener noreferrer">Ver Web</a>
                     </div>
-                    <div class="detalles">
-                        <h4>Buscador de Imágenes</h4>
-                        <p>He creado este proyecto con el fin de ayudarme a la hora de buscar imágenes para realizar los proyectos. Se trata de una API que conecta las imágenes de la plataforma Pixabay, un lugar donde puedes encontrar más de 1.9 millones de imágenes y vídeos compartidos gratuitamente por la comunidad. Tiene el fin de ayudar a todo aquel que lo use a encontrar imágenes o vídeos más fácilmente.</p>
-                    </div>
-                    <a class="enlace-card" target="_blank" href="https://sleepy-newton-e4f703.netlify.app" rel="noopener noreferrer">Ver Web</a>
                 </div><!-- Card 4 -->
 
             </div> <!--Cards-->
@@ -161,12 +184,12 @@
             <h4><span>4.</span>Contacto</h4>
 
             <div class="contenido" data-aos="zoom-in" data-aos-duration="1000">
-                <form>
-                    <input type="text" placeholder="Nombre:">
-                    <input type="email" placeholder="Correo:">
-                    <input type="tel" placeholder="Teléfono:">
-                    <textarea placeholder="Mensaje:" rows="3"></textarea>
-                    <input type="submit" value="Enviar Mensaje">
+                <form action="mail.php" method="POST">
+                    <input type="text" name="nombre" placeholder="Nombre:">
+                    <input type="email" name="email" placeholder="Correo:">
+                    <input type="tel" name="telefono" placeholder="Teléfono:">
+                    <textarea name="mensaje" placeholder="Mensaje:" rows="3"></textarea>
+                    <input type="submit" name="enviar" value="Enviar Mensaje">
                 </form>
             </div>
         </section>
@@ -180,12 +203,10 @@
 
     
     <!-- AOS.js -->
-    <script async src="build/js/efects/aos/aos.js"></script>
-    <script async src="build/js/efects/aos/aos-init.js"></script>
+    <script src="build/js/efects/aos/aos.js"></script>
+    <script src="build/js/efects/aos/aos-init.js"></script>
     <!-- Particles.js -->
-    <script async src="build/js/efects/particles/particles.js"></script>
-    <script async src="build/js/efects/particles/particlesjs-config.js"></script>
-    <!-- Main/App.js -->
-    <script async src="build/js/bundle.js"></script>
+    <script src="build/js/efects/particles/particles.js"></script>
+    <script src="build/js/efects/particles/particlesjs-config.js"></script>
 </body>
 </html>
