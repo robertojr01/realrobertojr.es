@@ -10,7 +10,7 @@ if( isset($_POST['enviar']) ){
 
         $mensaje_email = "Mensaje enviado por: $nombre \r\n";
         $mensaje_email .= "Su email es: $email \r\n";
-        $mensaje_email .= "Telefono de contacto: $telefono";
+        $mensaje_email .= "Telefono de contacto: $telefono \r\n";
         $mensaje_email .= "Mensaje: $mensaje_form \r\n";
 
         $asunto = 'EMAIL ENVIADO DESDE FORMULARIO';
@@ -21,3 +21,4 @@ if( isset($_POST['enviar']) ){
         header('Location:index.html');
     }
 }
+header('Location:index.html');
